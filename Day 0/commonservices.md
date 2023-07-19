@@ -37,7 +37,11 @@
 
 - AWS Lambda is a serverless computing platform that means it lets you run your code without managing any servers. This code is triggered in response to events, such as update in the db, change in S3 bucket etc. Whenever any event occurs, it quickly runs the code, processes the data and then stops. You are only charged for the time your code takes to execute, down to the millisecond. Lambda is very cost-effective and scalable. AS in the above cloudwatch example a developer created an unencrypted EBS volume, so in this case a lambda function is executed that will encrypt the EBS volume and then stops executing.
 
-## Cloud Build Services
+# AWS CodePipeline (Cloud Build Services)
+
+# AWS CodeBuild (Cloud Build Services)
+
+# AWS CodeDeploy (Cloud Build Services)
 
 ## KMS
 
